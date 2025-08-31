@@ -1,0 +1,23 @@
+{
+  "name": "staging",
+  "version": "1.0.0",
+  "description": "Git commands---------\r 1. Basic Git Setup & Configuration\r     git --version                      # Check git version\r     git config --global user.name \"Your Name\"\r     git config --global user.email \"your@email.com\"\r     git config --global core.editor \"code --wait\"   # Set default editor\r     git config --list                   # Show all config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayur-garg01/staging.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayur-garg01/staging/issues"
+  },
+  "homepage": "https://github.com/mayur-garg01/staging#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
